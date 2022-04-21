@@ -1,0 +1,31 @@
+Me disculpo por la demora, traté de hace un muy buen trabajo con la practica
+
+o	1) ¿Pueden existir funciones dentro de funciones?
+    Ver el punto 1 del archivo "procedimiento.py"
+    Se puede declarar una función dentro de otra función, no obstante la vida de esa función es esfímera al pertenecer al ámbito de la función donde es definida. 
+    Va a ser creada de nuevo cada vez  que se llame la función donde fue creada y dejará de existir cuando esta retorne. Esto implica que no podrá ser llamada desde fuera de la función donde es definida en principio.
+    Dada lo anterior, son pocos los casos en los que esto es útil.
+
+o	2) ¿Se puede enviar como parámetro de una función otra función con retorno?
+    Ver el punto 2 del archivo "procedimiento.py"
+    Si se puede, estás funciones que permiten este comportamiento se llaman funciones de orden superior, 
+    si la función contiene otras funciones como parámetros de entrada o si devuelve una función como salida, es decir, las funciones que operan con otra función.
+    En la practica se hizo uso de funciones de orden superior
+
+o	3) ¿Qué sucede si dentro de una función se hace un llamado a sí misma?
+    Ver el punto 3 del archivo "procedimiento.py"
+    Se dice que una función es recursiva cuando el cuerpo de la función utiliza a la propia función, o sea hace un llamado a sí misma
+    Dentro de una función recursiva suelen distinguirse dos partes:
+    Los casos base: Son aquellos que para su solución no requieren utilizar la función que se está definiendo.
+    Los casos recursivos: Son aquellos que sí que requieren utilizar la función que se está definiendo.
+
+
+o	4) ¿Una variable creada como global dentro de una función, ¿sigue existiendo fuera de la función?
+    Ver el punto 4 del archivo "procedimiento.py"
+    Una variable global es aquella que se define fuera del cuerpo de cualquier función, si lo que quiere decir la pregunta es que si es global a esa función
+    o sea, que la variable se cree al principio de la función, en este caso tampoco puede usarse por fuera.
+
+o	5) Después de indicar una variable en una función como global, ¿hay alguna manera de volver a usar la variable local?
+    Ver el punto 5 del archivo "procedimiento.py"
+    Si se puede, para ganar acceso de modificación es necesario utilizar el modificador global. 
+    Con esta declaración le estamos diciendo a Python que sabemos que vamos a utilizar una variable global y que queremos modificarla

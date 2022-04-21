@@ -1,0 +1,5 @@
+Dairo Arley García Vergara cc: 1037974366
+Reto 4
+Punto 1: en el reto 3 se aplicó correctamente el paradigma funcional, 
+como se puede observar en el desarrollo de la practica 3 se puede observar que no hubo falencias en la  parte funcional,
+más posiblemente en la parte del desarrollo, ya que encontré cierta ambigüedad en el último punto de el reto.
